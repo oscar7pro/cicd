@@ -20,5 +20,5 @@ jobs:
         uses: akhileshns/heroku-deploy@v3.5.7 # This is the action we are importing
         with: # It accepts some arguments to work, we can pass the argument using `with`
           heroku_api_key: ${{secrets.HEROKU_AUTH_TOKEN}} # This is the same as the auth key we generated earlier
-          heroku_app_name: "aleem-urls" #Must be unique in Heroku
+          heroku_app_name: "aleem-urls" #Must be unique in Heroku for this
           heroku_email: "aleemisiaka@gmail.com" # Email attached to the account
